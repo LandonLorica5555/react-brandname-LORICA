@@ -10,7 +10,7 @@ import Footer from "../../partials/Footer";
 const Home = () => {
   return (
     <>
-      <div className="min-h-screen bg-gray-100">
+      <div id="home" className="min-h-screen bg-gray-100">
         <Navigation />
         <Hero />
         <Features />
